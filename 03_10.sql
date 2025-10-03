@@ -90,3 +90,8 @@ where nome = "Marcos";
 update cursos
 set status = "inativo"
 where id = 3;
+
+update avaliacoes
+set nota = 9.00
+where id = 2;
+
