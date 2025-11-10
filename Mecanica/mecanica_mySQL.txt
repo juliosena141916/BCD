@@ -1,0 +1,36 @@
+Create table clientes(
+id_cliente int primary key auto_increment,
+nome varchar(100),
+telefone int(11),
+CEP varchar(9)
+);
+
+Create table Mecanicos(
+id_mec int primary key auto_increment,
+nome varchar(100),
+endereco varchar(255)
+);
+
+Create table Materiais(
+id_material int primary key auto_increment,
+valor decimal(5,2),
+quantidade int(5),
+nome_material varchar(100)
+);
+
+Create table Servico(
+id_serv int primary key auto_increment,
+nome_serv varchar(100),
+preco decimal(5,2),
+);
+
+Create table Veiculos(
+id_veiculo int primary key auto_increment,
+modelo varchar(50),
+cor varcahr(20),
+placa varchar(10)
+);
+
+Create table Ordem_servico(
+id_ords int primary key auto_increment,
+);
