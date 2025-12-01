@@ -1,0 +1,3 @@
+O uso de um índice na coluna id_veiculo de Ordens_Servico acelera o desempenho do JOIN com a tabela Veiculos, permitindo buscas rápidas em vez de varreduras lineares. Sem índice, o banco precisa percorrer todas as linhas, o que é mais lento.
+
+Um índice composto é criado em múltiplas colunas e organiza os dados de forma otimizada para consultas que filtram por essas colunas. Ele melhora a performance, pois permite buscar rapidamente registros combinando os valores das colunas, sem precisar fazer buscas lineares.
